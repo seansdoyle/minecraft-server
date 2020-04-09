@@ -1,40 +1,36 @@
-[17:23:38] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:23:38] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:23:38] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:23:38] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:23:38] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:23:39] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[17:23:39] [Server thread/INFO]: Loading properties
-[17:23:39] [Server thread/INFO]: Default game type: SURVIVAL
-[17:23:39] [Server thread/INFO]: Generating keypair
-[17:23:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:23:39] [Server thread/INFO]: Using default channel type
-[17:23:40] [Server thread/INFO]: Preparing level "world"
-[17:23:40] [Server thread/INFO]: Reloading ResourceManager: Default
-[17:23:54] [Server thread/INFO]: Loaded 6 recipes
-[17:23:54] [Server thread/INFO]: Loaded 825 advancements
-[17:23:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:23:55] [Server thread/INFO]: Preparing spawn area: 0%
-[17:23:55] [Server thread/INFO]: Preparing spawn area: 0%
-[17:23:55] [Server thread/INFO]: Preparing spawn area: 0%
-[17:23:56] [Server thread/INFO]: Preparing spawn area: 0%
-[17:23:56] [Server thread/INFO]: Time elapsed: 1888 ms
-[17:23:56] [Server thread/INFO]: Done (15.979s)! For help, type "help"
-[17:25:25] [User Authenticator #1/INFO]: UUID of player gloriuscoyote is dc2c5c7e-690c-42a5-a7fe-f588197b2802
-[17:25:25] [Server thread/INFO]: gloriuscoyote[/127.0.0.1:51122] logged in with entity id 344 at (-135.80607272963792, 85.0, -188.03637912146786)
-[17:25:26] [Server thread/INFO]: gloriuscoyote joined the game
-[17:25:31] [Server thread/INFO]: gloriuscoyote lost connection: Disconnected
-[17:25:31] [Server thread/INFO]: gloriuscoyote left the game
-[17:25:36] [Server thread/INFO]: Stopping the server
-[17:25:36] [Server thread/INFO]: Stopping server
-[17:25:36] [Server thread/INFO]: Saving players
-[17:25:36] [Server thread/INFO]: Saving worlds
-[17:25:36] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[17:25:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:25:36] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[17:25:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:25:36] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[17:25:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:25:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:25:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:25:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:57:41] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:57:41] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:57:41] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:57:41] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:57:41] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:57:42] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[19:57:42] [Server thread/INFO]: Loading properties
+[19:57:42] [Server thread/INFO]: Default game type: SURVIVAL
+[19:57:42] [Server thread/INFO]: Generating keypair
+[19:57:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:57:43] [Server thread/INFO]: Using default channel type
+[19:57:44] [Server thread/INFO]: Preparing level "world"
+[19:57:44] [Server thread/INFO]: Reloading ResourceManager: Default
+[19:57:45] [Server thread/INFO]: Loaded 6 recipes
+[19:57:45] [Server thread/INFO]: Loaded 825 advancements
+[19:57:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:58:00] [Server thread/INFO]: Preparing spawn area: 0%
+[19:58:00] [Server thread/INFO]: Preparing spawn area: 0%
+[19:58:00] [Server thread/INFO]: Preparing spawn area: 0%
+[19:58:00] [Server thread/INFO]: Preparing spawn area: 0%
+[19:58:00] [Server thread/INFO]: Preparing spawn area: 36%
+[19:58:01] [Server thread/INFO]: Time elapsed: 2402 ms
+[19:58:01] [Server thread/INFO]: Done (17.010s)! For help, type "help"
+[19:58:17] [Server thread/INFO]: Stopping the server
+[19:58:17] [Server thread/INFO]: Stopping server
+[19:58:17] [Server thread/INFO]: Saving players
+[19:58:17] [Server thread/INFO]: Saving worlds
+[19:58:17] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[19:58:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:58:17] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[19:58:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:58:18] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[19:58:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:58:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:58:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:58:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved

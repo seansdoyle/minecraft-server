@@ -19,20 +19,17 @@ def main():
     players_s = ",".join(players)
 
     print("\nServer closed")
-    msg = "{} player on ther server ran for {}".format(players_s, server_up_time))
-    
-    if('help' in server_stdout):
-        print("help in server_stdout")
+    msg = "{} played on the server ran for {}".format(players_s, server_up_time) 
+    print(msg)
+    git = {'add':['git', 'add', '--all'], 'commit':build_git_commit(msg), 'push':['git', 'push']}
 
-    git = {'add':['git', 'add', '--all'], 'commit':build_git_commit(server_up_time), 'push':['git', 'push']}
-
-    #subprocess.check_call(git_add)
-    #subprocess.check_call(build_git_commit(msg))
-    #subprocess.check_call(git_push)
+    subprocess.check_call(git['add'])
+    subprocess.check_call(git['commit'])
+    subprocess.check_call(git['push'])
 
 
 def build_git_commit(msg):
-    return ['git', 'commit', '-m', '\"', str(msg), '\"']
+    return ['git', 'commit', '-m', '"', msg, '"']
     
 if __name__ == '__main__':
     main()
