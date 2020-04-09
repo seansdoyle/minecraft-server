@@ -19,7 +19,7 @@ def main():
     players_s = ",".join(players)
 
     print("\nServer closed")
-    msg = "{} played on the server ran for {}".format(players_s, server_up_time) 
+    msg = '{} played on the server ran for {}'.format(players_s, server_up_time) 
     print(msg)
     git = {'add':['git', 'add', '--all'], 'commit':build_git_commit(msg), 'push':['git', 'push']}
 
@@ -29,7 +29,7 @@ def main():
 
 
 def build_git_commit(msg):
-    return ['git', 'commit', '-m', '"', msg, '"']
+    return ['git', 'commit', '-m', '"' + msg + '"']
     
 if __name__ == '__main__':
     main()
